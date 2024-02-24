@@ -40,7 +40,8 @@ def cosine_similarity(vec_a, vec_b):
     return dot_prod / (magnitude_a * magnitude_b)
 
 
-if __name__ == "__main__":
+def start():
+
     start = True
 
     print(
@@ -108,3 +109,7 @@ if __name__ == "__main__":
         elif userInput not in vectors and userInput != "":
 
             print(f"'{userInput}' is not in the Dictionary")
+
+
+if __name__ == "__main__":
+    start()
